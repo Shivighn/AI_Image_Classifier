@@ -29,6 +29,7 @@ This project aims to classify images into 2 different classes using a convolutio
    ```
 5. Now the project has opened locally in your machine.
    Try it out by uploading the images and getting the classification shown.
+   I suggest you use the cifake 32*32 images (test_images folder) in this model for testing as this isn't perfect for HD images.
 
 ## Results
 The CNN model achieved an accuracy of 98%, a precision of 0.96, and a recall of 1, on the test set. The model could classify most images that are 32*32 size correctly, but it also had some misclassifications for the images that are not of that size.
