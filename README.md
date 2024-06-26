@@ -7,9 +7,9 @@ This project aims to classify images into 2 different classes using a convolutio
    ```bash
    git clone https://github.com/Shivighn/AI_Image_Classifier.git
    ```
-1. To view or run the notebook you can run it in Kaggle as the dataset is available in Kaggle
-  Open the image-classifier.ipynb in Kaggle 
-2.1 To run it locally you need a few dependencies
+2. To view or run the notebook you can run it in Kaggle as the dataset is available in Kaggle
+     Open the image-classifier.ipynb in Kaggle.
+3. To run it locally you need a few dependencies:
    - streamlit
    - openCV
    - Tensorflow
@@ -17,18 +17,18 @@ This project aims to classify images into 2 different classes using a convolutio
    - Keras
    - PIL
 
-    You can download them using pip in cmd
+    You can download them using pip:
    ```
    pip install streamlit opencv-python keras tensorflow numpy pillow
    ```
    
-2.2 To run it locally you need to open main.py and util.py
+4. To run it locally you need to open main.py and util.py
    Then in the terminal in your desired code editor in which these 2 codes are open, run:
    ```
    streamlit run main.py
    ```
-3. Now the project has opened locally in your machine
-   Try it out by uploading the images and getting the classification shown 
+5. Now the project has opened locally in your machine.
+   Try it out by uploading the images and getting the classification shown.
 
 ## Results
 The CNN model achieved an accuracy of 98%, a precision of 0.96, and a recall of 1, on the test set. The model could classify most images that are 32*32 size correctly, but it also had some misclassifications for the images that are not of that size.
